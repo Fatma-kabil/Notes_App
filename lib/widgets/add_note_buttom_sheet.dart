@@ -10,7 +10,7 @@ class AddNoteButtomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: MediaQuery.of(context).viewInsets,
-      child: SingleChildScrollView(
+      child: const SingleChildScrollView(
         child: AddNoteForm(),
       ),
     );
